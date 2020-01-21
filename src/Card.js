@@ -1,10 +1,11 @@
-import React,{Fragment} from 'react';
+import React from 'react';
+import {Col} from 'reactstrap';
 
 function Card (props){
     const {id,nama,gambar,desc} = props;
     return(
-        <Fragment>
-            <article key={id} className=' grow fl br2 ba dark-gray b--black-10 mv4 w-100 mw5 mr-2 ma2 w-50-ns'>
+        <Col md='3'>
+            <article key={id} className=' grow fl br2 ba dark-gray b--black-10 mv4 ma2 '>
                 <img alt='miaw' src={gambar} className='db w-100 br2 br--top' />
                 <div className='pa2 ph3-ns pb3-ns'>
                 <div className='dtc'>
@@ -16,7 +17,7 @@ function Card (props){
                 </div>
                 </div>
             </article>
-        </Fragment>
+        </Col>
     )
 }
 

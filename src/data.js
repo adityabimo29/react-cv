@@ -17,6 +17,12 @@ export const data = [
         "gambar":"https://robohash.org/4H3.png?set=set1",
         "desc":" If it fits, i sits burrow under covers. Destroy couch leave hair everywhere, and touch water with paw then recoil in horror."
     },
+    {
+        "id":4,
+        "nama":"Eagle",
+        "gambar":"https://robohash.org/4H8.png?set=set1",
+        "desc":" If it fits, i sits burrow under covers. Destroy couch leave hair everywhere, and touch water with paw then recoil in horror."
+    }
     
 
 ]
