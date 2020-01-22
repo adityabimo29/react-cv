@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { Row,Container,Col } from 'reactstrap';
+import Counter from './Counter';
 
 function About (){
     return(
+        <Fragment>
+        <Counter />
         <Container className='text-center tc pt-3'>
             <Row>
                 <Col md='12'>
@@ -12,6 +15,7 @@ function About (){
                 </Col>
             </Row>
         </Container>
+        </Fragment>
     )
 }
 
