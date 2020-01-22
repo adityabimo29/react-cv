@@ -33,7 +33,7 @@ class Counter extends Component {
           <Col className='text-center py-5' md={{size:4,offset:4}}>
             <h3 className='alert alert-info'>{this.state.count}</h3>
             <Button className='mr-3' type="submit" color="info" onClick={this.addNumber}>Tambah</Button> 
-            <Button className='mr-3' type="submit" color="danger" onClick={this.remNumber}>Hapus</Button>
+            <Button className='mr-3' type="submit" color="danger" onClick={this.remNumber}>Dikurangi</Button>
             <Button type="submit" color="warning" onClick={this.resetNumber}>Reset</Button>
           </Col>
         </Row>
